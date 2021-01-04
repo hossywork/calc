@@ -17,7 +17,8 @@ public class Main {
         }
         System.out.println(numbers[0]);
     //　演算子をそれぞれ計算に組み込んでいく
-
+        String[] operators = formula.split("[0 - 9]+");
+        System.out.println(operators[1]);
 
 
     }
